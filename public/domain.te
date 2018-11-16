@@ -1415,6 +1415,7 @@ neverallow {
   -ueventd
   -vold
   -system_writes_mnt_vendor_violators
+  -charger
 } mnt_vendor_file:dir *;
 
 # Vendor domian must not have access to /mnt/product.
